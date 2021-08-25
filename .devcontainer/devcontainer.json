@@ -12,7 +12,10 @@
   },
 
   // Set *default* container specific settings.json values on container create.
-  "settings": {},
+  "settings": {
+    "plantuml.server": "http://plantuml-server:8080",
+    "plantuml.render": "PlantUMLServer"
+  },
 
   // Add the IDs of extensions you want installed when the container is created.
   "extensions": [
